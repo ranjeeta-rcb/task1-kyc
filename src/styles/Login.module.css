@@ -1,0 +1,70 @@
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f3f5f6, #cfe6df);
+}
+
+.card {
+  width: 350px;
+  padding: 25px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+   font-size: 20px;
+    font-weight: 600;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.inputGroup input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #00a89d;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #cfd8dc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bottomText {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.back {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #00a89d;
+  cursor: pointer;
+}
