@@ -4,12 +4,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #f3f5f6, #cfe6df);
+  background: linear-gradient(to right, #f3f5f6, #bafae7);
 }
 
 .card {
+  height: 500px;
   width: 350px;
-  padding: 25px;
+  padding: 50px;
   border-radius: 12px;
   background: white;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -17,8 +18,8 @@
 
 .card h2 {
   text-align: center;
-  margin-bottom: 20px;
-   font-size: 20px;
+  margin-bottom: 30px;
+  font-size: 25px;
     font-weight: 600;
 }
 
@@ -26,6 +27,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+  padding: 10 5 10 10;
 }
 
 .inputGroup label {
@@ -46,19 +48,38 @@
   cursor: pointer;
 }
 
+ 
+
 .btn {
-  width: 100%;
+  width: 60%;               
+  margin: 15px auto;      
+  display: block;
   padding: 10px;
-  background: #cfd8dc;
+  background: #d0d5d7;     
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  cursor: not-allowed;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+ 
+.activeBtn {
+  background: #00a89d;
   cursor: pointer;
+}
+
+ 
+.activeBtn:hover {
+  background: #009688;
 }
 
 .bottomText {
   margin-top: 10px;
   text-align: center;
   font-size: 14px;
+  
 }
 
 .back {
