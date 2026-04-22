@@ -133,3 +133,9 @@
   color: #00a89d;
   cursor: pointer;
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}

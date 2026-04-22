@@ -31,7 +31,7 @@ export default function Login() {
         <div className={styles.inputGroup}>
           <label>Email/Phone</label>
           <input 
-            type="text" 
+            type="text" name="email"
             placeholder="Enter your Email/phone"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
